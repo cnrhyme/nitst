@@ -1,0 +1,98 @@
+/*css reset code */
+
+html {
+overflow-x:hidden;
+
+}
+/*html5*/
+article,aside,dialog,footer,header,section,footer,nav,figure,menu{display:block}
+
+/****  文字大小初始化,使1em=10px *****/
+body {
+	font-family:"microsoft yahei";
+    font-size: 12px;
+	background:#ffffff;
+
+} /* for IE/Win */
+
+
+html>body {
+
+
+} /* for everything else */
+
+/*字体边框等初始化*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+ padding: 0;
+ margin: 0;
+ }
+input,textarea { font-size:14px; color:#555; font-family:"微软雅黑"}
+table {
+ border-collapse: collapse;
+ border-spacing: 0;
+ }
+fieldset,img {
+ border: 0px;
+ }
+
+address,caption,cite,code,dfn,th,var,em,i {
+ font-weight: normal;
+ font-style: normal;
+ }
+ol,ul {
+	list-style-image: none;
+	list-style:none;
+ }
+caption,th {
+ text-align: left;
+ }
+h1,h2,h3,h4,h5,h6 {
+ font-weight: normal;
+ font-size: 100%;
+ }
+q:before,q:after {
+ content:'';
+ }
+abbr,acronym { border: 0;
+ }
+img{ margin:0px; padding:0px; }
+
+a {
+text-decoration:none;
+color:#333;
+outline:none;
+/*opacity:0.5;filter:alpha(opacity=50); border-radius:15px; behavior: url(js/pie.htc);"*/
+}
+a:active {star:expression(this.onFocus=this.blur());} 
+/* my通用样式 */
+.fl {float:left;}
+.fr {float:right;}
+.abs{position:absolute;}
+.rel{position:relative;}
+.center{margin:0px auto;}
+.cli { overflow:hidden;}
+.flex { width:1262px; overflow:hidden;} 
+.yfont { color:#e12401;}
+.bfont { color:#0c84cb;}
+.lfont { color:#6db005;}
+.pfont { color:#f9607e;}
+.gfont { color:#999;} 
+.grf { color:#029442;}
+.fred { color:#ff0000 !important;}
+.mt5 { margin-top:5px;}
+.mt0 { margin-top:0px !important;}
+.mt10 { margin-top:10px; }
+.mt15 { margin-top:15px; }
+.ml0 { margin-left:0px !important;}
+.ml10 { margin-left:10px;}
+.ml15 { margin-left:15px;}
+.ml25 { margin-left:25px;}
+.mt20 { margin-top:20px;}
+.mt30 { margin-top:30px;}
+.mt35 { margin-top:35px;}
+.mt40 { margin-top:40px;}
+.mr15 { margin-right:15px;}
+.b0 { border:none !important;}
+.bg0 { background:none !important;}
+.b14 { color:#222; font-size:14px;}
+.b24 { font-size:24px; font-family:Arial; color:#e12502;}
